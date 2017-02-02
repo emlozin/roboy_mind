@@ -1,0 +1,729 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://knowrob.org/kb/semRoom_semantic_map.owl#"
+     xml:base="http://knowrob.org/kb/semRoom_semantic_map.owl"
+     xmlns:semRoom_semantic_map="http://knowrob.org/kb/semRoom_semantic_map.owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:owl2xml="http://www.w3.org/2006/12/owl2-xml#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:knowrob="http://knowrob.org/kb/knowrob.owl#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl2="http://www.w3.org/2006/12/owl2#"
+     xmlns:computable="http://knowrob.org/kb/computable.owl#">
+    <owl:Ontology rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl">
+        <owl:imports rdf:resource="package://knowrob_common/owl/knowrob.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#aboveOf -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#aboveOf"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#describedInMap -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#describedInMap"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#eventOccursAt -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#eventOccursAt"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#hingedTo -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#hingedTo"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#objectActedOn -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#objectActedOn"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#orientation -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#orientation"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#startTime -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#startTime"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#storedAtPlace -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#storedAtPlace"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#typePrimaryFunction-StoragePlaceFor -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/knowrob.owl#typePrimaryFunction-StoragePlaceFor"/>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#aboveOfTempo -->
+
+    <owl:ObjectProperty rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#aboveOfTempo">
+        <rdfs:subPropertyOf rdf:resource="http://knowrob.org/kb/knowrob.owl#aboveOf"/>
+        <rdfs:domain rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+        <rdfs:range rdf:resource="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#depthOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#depthOfObject"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#heightOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#heightOfObject"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m00 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m00"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m01 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m01"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m02 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m02"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m03 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m03"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m10 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m10"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m11 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m11"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m12 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m12"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m13 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m13"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m20 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m20"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m21 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m21"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m22 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m22"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m23 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m23"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m30 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m30"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m31 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m31"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m32 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m32"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#m33 -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#m33"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#radius -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#radius"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#widthOfObject -->
+
+    <owl:DatatypeProperty rdf:about="http://knowrob.org/kb/knowrob.owl#widthOfObject"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowrob.org/kb/computable.owl#PrologProperty -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/computable.owl#PrologProperty"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Bathtub -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Bathtub"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#ControlKnob -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#ControlKnob"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#CookingVessel -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#CookingVessel"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Cupboard -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Cupboard"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#DinnerPlate -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#DinnerPlate"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Dishwasher -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Dishwasher"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Door -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Door"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Drawer -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Drawer"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Drink -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Drink">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#storedAtPlace"/>
+                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/knowrob.owl#Refrigerator"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#DrinkingBottle -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#DrinkingBottle"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#DrinkingMug -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#DrinkingMug"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#FoodVessel -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#FoodVessel"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Handle -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Handle"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#HingedJoint -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#HingedJoint"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#KitchenTable -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#KitchenTable"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Oven -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Oven"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#PancakeMix -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#PancakeMix"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Refrigerator -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Refrigerator">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://knowrob.org/kb/knowrob.owl#typePrimaryFunction-StoragePlaceFor"/>
+                <owl:someValuesFrom rdf:resource="http://knowrob.org/kb/knowrob.owl#Drink"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#RotationMatrix3D -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SemanticEnvironmentMap -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SemanticEnvironmentMap"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SemanticMapPerception -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#SpatialThing-Localized"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#Spatula -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#Spatula"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#TimePoint -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#TimePoint"/>
+    
+
+
+    <!-- http://knowrob.org/kb/knowrob.owl#WallOfAConstruction -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/knowrob.owl#WallOfAConstruction"/>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#PancakeMaker -->
+
+    <owl:Class rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#PancakeMaker">
+        <rdfs:subClassOf rdf:resource="http://knowrob.org/kb/knowrob.owl#CookingVessel"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticEnvironmentMap"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_103 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_103">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_103"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#table1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_104 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_104">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_104"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#pancake_mix1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_105 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_105">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_105"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#plate1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_106 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_106">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_106"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#pancakemaker1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_107 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_107">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_107"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#spatula1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_108 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticMapPerception_108">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#SemanticMapPerception"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_108"/>
+        <knowrob:objectActedOn rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#cup1"/>
+        <knowrob:startTime rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#cup1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#cup1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#DrinkingMug"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.3</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.35</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#pancake_mix1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#pancake_mix1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#PancakeMix"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.35</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#pancakemaker1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#pancakemaker1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#PancakeMaker"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.15</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#plate1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#plate1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#DinnerPlate"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.12</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_103 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_103">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_104 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_104">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.95</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_105 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_105">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.65</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_106 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_106">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.27</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">-0.75</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_107 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_107">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.6</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.4</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.7</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_108 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_108">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#RotationMatrix3D"/>
+        <knowrob:m00 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m00>
+        <knowrob:m01 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m01>
+        <knowrob:m02 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m02>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.85</knowrob:m03>
+        <knowrob:m03 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">3.0</knowrob:m03>
+        <knowrob:m10 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m10>
+        <knowrob:m11 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m11>
+        <knowrob:m12 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m12>
+        <knowrob:m13 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m13>
+        <knowrob:m20 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m20>
+        <knowrob:m21 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m21>
+        <knowrob:m22 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m22>
+        <knowrob:m23 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.75</knowrob:m23>
+        <knowrob:m30 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m30>
+        <knowrob:m31 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m31>
+        <knowrob:m32 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.0</knowrob:m32>
+        <knowrob:m33 rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.0</knowrob:m33>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#spatula1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#spatula1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#Spatula"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.6</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.085</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.25</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#table1 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#table1">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#KitchenTable"/>
+        <knowrob:describedInMap rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#SemanticEnvironmentMap2"/>
+        <knowrob:depthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">1.25</knowrob:depthOfObject>
+        <knowrob:heightOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">0.5</knowrob:heightOfObject>
+        <knowrob:widthOfObject rdf:datatype="http://www.w3.org/2001/XMLSchema#float">2.75</knowrob:widthOfObject>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00 -->
+
+    <owl:NamedIndividual rdf:about="http://knowrob.org/kb/semRoom_semantic_map.owl#timepoint_1271159865.00">
+        <rdf:type rdf:resource="http://knowrob.org/kb/knowrob.owl#TimePoint"/>
+        <knowrob:eventOccursAt rdf:resource="http://knowrob.org/kb/semRoom_semantic_map.owl#rotationmatrix3d_107"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.6.20160910-2108) https://github.com/owlcs/owlapi -->
+
