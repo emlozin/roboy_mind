@@ -1,0 +1,30 @@
+Be sure you have install the ros version "Indigo"
+
+Follow the next steps to install knowrob in your laptop:
+
+1) Install some necesary libraries:
+
+	sudo apt-get install openjdk-7-jdk openjdk-7-jre
+	sudo apt-get install ros-indigo-rosjava
+	sudo apt-get install swi-prolog swi-prolog-java libjson-glib-dev
+
+2) Update your bash file to include the java path:
+
+	echo 'export LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/amd64/server' >> ~/.bashrc
+	echo 'export JAVA_HOME=/usr/lib/jvm/java-7-openjdk-amd64' >> ~/.bashrc
+
+3) Update the ros dependencies
+	sudo rosdep init
+	rosdep update
+
+4) Create a temporal workspace for installing knowrob:
+	cd ~/catkin_ws/src
+	rosws init
+   Download and install the knowrob:		
+	wstool merge https://raw.github.com/knowrob/knowrob/master/rosinstall/knowrob-base.rosinstall
+	wstool update
+	rosdep install --ignore-src --from-paths stacks/
+	cd ~/catkin_ws
+	catkin_make
+
+
