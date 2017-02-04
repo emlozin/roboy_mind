@@ -1,10 +1,10 @@
 # Roboy Mind
 
-The project implements memory concept for Roboy based on KnowRob package.
+The project implements memory concept for Roboy based on the [KnowRob package](http://wiki.ros.org/knowrob).
 
 ## Dependencies
 
-The package depends on KnowRob package so make sure to follow the steps from knowRob_installation.txt and source the workspace:
+The package depends on KnowRob package so make sure to follow the steps from [knowRob_installation.txt](https://github.com/Roboy/roboy_mind/blob/master/knowRob_installation.txt) and source the workspace:
 ```
 source knowrob_ws/devel/setup.bash
 ```
@@ -20,7 +20,7 @@ roslaunch roboy_mind nodes.launch
 
 ## Services and messages
 
-The package implements service servers for following services. For further documentation read Doxygen documentation.
+The package contains the following services:
 
 ```
 /roboy_mind/assert_property
@@ -40,3 +40,4 @@ The package implements service servers for following services. For further docum
 /roboy_mind/siblings_of
 
 ```
+For further documentation read Doxygen documentation.
