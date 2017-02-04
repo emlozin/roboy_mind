@@ -17,12 +17,6 @@ find_package(catkin REQUIRED COMPONENTS
   rosjava_messages
 )
 
-## Generate messages in the 'msg' folder
-add_message_files(
-   DIRECTORY
-    msg
-   FILES
- )
 
 ## Generate services in the 'srv' folder
 add_service_files(
