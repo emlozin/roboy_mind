@@ -72,7 +72,7 @@ generate_messages(
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+  INCLUDE_DIRS include
 #  LIBRARIES tumgo_control
    CATKIN_DEPENDS message_runtime
 #  DEPENDS system_lib
@@ -102,6 +102,7 @@ include_directories(
 
 ## Declare a C++ executable
 add_executable(reasoning_node src/reasoning_node.cpp)
+add_dependencies(reasoning_node roboy_mind_generate_messages_cpp)
 target_link_libraries(reasoning_node  ${catkin_LIBRARIES})
 
 #############
