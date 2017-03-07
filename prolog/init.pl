@@ -43,7 +43,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % parse OWL files, register name spaces
-:- owl_parser:owl_parse('package://tumgo_reasoning/owl/semRoom_semantic_map.owl').
+:- owl_parser:owl_parse('package://roboy_mind/owl/semRoom_semantic_map.owl').
 
 :- rdf_db:rdf_register_ns(knowrob, 'http://knowrob.org/kb/knowrob.owl#', [keep(true)]).
 :- rdf_db:rdf_register_ns(semRoom_semantic_map, 'http://knowrob.org/kb/semRoom_semantic_map.owl#', [keep(true)]).
